@@ -1,0 +1,10 @@
+[package]
+name = "parser"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+swc_ecma_parser = "22.0.2"
+swc_ecma_ast = "14.0.0"
+swc_common = "14.0.2"
+serde = { version = "1.0", features = ["derive"] }
