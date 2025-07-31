@@ -8,6 +8,7 @@ fn main() {
         return a + b;
     }
     "#;
+    
 
     let module = parse_ts_module(code);
     println!("{:#?}", module);
